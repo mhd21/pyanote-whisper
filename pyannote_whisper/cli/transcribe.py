@@ -101,8 +101,8 @@ def cli():
 
         audio_basename = os.path.basename(audio_path)
 
-       writeAll = get_writer('all',output_dir)
-       writeAll(result,audio_path)
+        writeAll = get_writer('all',output_dir)
+        writeAll(result,audio_path)
 
         if diarization:
             diarization_result = pipeline(audio_path)

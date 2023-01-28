@@ -1,4 +1,4 @@
-import ospyanote-whisper
+import os,pyanote-whisper
 
 import pkg_resources
 from setuptools import setup, find_packages
